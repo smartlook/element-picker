@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Smartlook element picker</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=latin-ext&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="../../dist/popup.js"></script>
+		<style>
+			body {
+				margin: 0 !important;
+				width: 500px;
+				padding: 16px;
+				border-radius: 8px;
+				font-family: 'Roboto', serif;
+				font-size: 14px;
+				min-width: 400px;
+				background: linear-gradient(115.34deg, #023189 0%, #0077af 100%);
+				color: white;
+			}
+
+			a {
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Smartlook element picker</h1>
+		<p>
+			Chrome extension to allow users to select an element on any page and returns a selector that can be used to
+			target this element.
+		</p>
+		<p>
+			<b>Please note that this code gets executed on EVERY page</b>. If you want to whitelist only some pages you
+			can adjust manifest.json file, or you can overwrite it in extension settings:<br />
+			1. Go to <a href="chrome://extensions/">chrome://extensions/</a> <br />
+			2. Click on `details` button of this extension <br />
+			3. Go to `Site access` sections and adjust it to your needs. <br />
+		</p>
+	</body>
+</html>
